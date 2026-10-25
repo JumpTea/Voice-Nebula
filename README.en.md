@@ -37,7 +37,7 @@ One DSH plugin, covering Web / Desktop and TUI.
 
 | Capability | Status | Notes |
 | --- | --- | --- |
-| Speech while generating | Implemented | Text streams; speech is synthesized per sentence. First audio packet is about 250 ms on a warm local connection; network dependent |
+| Speech while generating | Implemented | Text streams; speech is synthesized per sentence. First audio packet is roughly 250–400 ms on a warm local connection; network dependent |
 | Voice input | Pipeline implemented; device test pending | Mic → VAD → host speech recognition → current session. Audio upload is available when no mic is present |
 | Barge-in | Implemented; device test pending | A button or detected speech stops playback; optionally cancels the current answer |
 | Captions | Implemented | Off / 1–3 lines, word by word; driven by the same stream as speech |
