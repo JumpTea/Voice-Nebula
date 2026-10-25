@@ -114,7 +114,7 @@ The source is still being iterated on internally. This repository currently hold
 
 ## Feedback
 
-Once the repository is public, use GitHub Issues. Please do not post API keys, access tokens, private conversations, recordings or other personal data.
+Use GitHub Issues to report problems. Please do not post API keys, access tokens, private conversations, recordings or other personal data.
 
 ## License and third parties
 

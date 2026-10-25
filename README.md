@@ -114,7 +114,7 @@ flowchart LR
 
 ## 反馈
 
-仓库公开后，用 GitHub Issues 反馈。请勿贴 API Key、访问令牌、个人对话、录音或其他隐私数据。
+用 GitHub Issues 反馈。请勿贴 API Key、访问令牌、个人对话、录音或其他隐私数据。
 
 ## 许可证与第三方
 
