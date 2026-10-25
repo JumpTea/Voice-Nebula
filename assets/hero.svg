@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Voice-Nebula</title>
+  <desc id="desc">Voice-Nebula: long answers you can listen to, and cut in on. A voice mode for DeepSeek Harness.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c0e11"/>
+      <stop offset="0.55" stop-color="#111417"/>
+      <stop offset="1" stop-color="#19130e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.46" r="0.56">
+      <stop offset="0" stop-color="#e08a3c" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#e08a3c" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#e08a3c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffc98a"/>
+      <stop offset="0.35" stop-color="#e08a3c"/>
+      <stop offset="1" stop-color="#e08a3c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e08a3c"/>
+      <stop offset="1" stop-color="#e08a3c" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+
+  <g stroke="#f2ede4" stroke-opacity="0.05" stroke-width="1">
+    <path d="M40 0V640 M160 0V640 M280 0V640 M400 0V640 M520 0V640 M640 0V640 M760 0V640 M880 0V640 M1000 0V640 M1120 0V640 M1240 0V640"/>
+    <path d="M0 80H1280 M0 200H1280 M0 320H1280 M0 440H1280 M0 560H1280"/>
+  </g>
+
+  <g fill="#f2ede4">
+    <circle cx="96" cy="64" r="1.6" opacity="0.35"/>
+    <circle cx="214" cy="128" r="1.2" opacity="0.25"/>
+    <circle cx="338" cy="58" r="1.8" opacity="0.3"/>
+    <circle cx="462" cy="176" r="1.1" opacity="0.22"/>
+    <circle cx="588" cy="92" r="1.4" opacity="0.28"/>
+    <circle cx="704" cy="142" r="1.2" opacity="0.18"/>
+    <circle cx="842" cy="70" r="1.5" opacity="0.26"/>
+    <circle cx="1188" cy="214" r="1.3" opacity="0.2"/>
+    <circle cx="1216" cy="382" r="1.7" opacity="0.24"/>
+    <circle cx="1150" cy="520" r="1.1" opacity="0.18"/>
+    <circle cx="78" cy="506" r="1.4" opacity="0.2"/>
+    <circle cx="246" cy="588" r="1.2" opacity="0.16"/>
+    <circle cx="430" cy="602" r="1.6" opacity="0.18"/>
+    <circle cx="654" cy="574" r="1.1" opacity="0.16"/>
+    <circle cx="862" cy="598" r="1.3" opacity="0.14"/>
+  </g>
+
+  <g fill="none" stroke="#e08a3c">
+    <circle cx="1030" cy="320" r="70" stroke-opacity="0.28"/>
+    <circle cx="1030" cy="320" r="130" stroke-opacity="0.16"/>
+    <circle cx="1030" cy="320" r="190" stroke-opacity="0.1"/>
+    <circle cx="1030" cy="320" r="250" stroke-opacity="0.06"/>
+    <circle cx="1030" cy="320" r="70" stroke-opacity="0.22" stroke-dasharray="3 9"/>
+    <circle cx="1030" cy="320" r="190" stroke-opacity="0.12" stroke-dasharray="2 12"/>
+  </g>
+  <circle cx="1030" cy="320" r="58" fill="url(#core)" opacity="0.55"/>
+  <circle cx="1030" cy="320" r="8" fill="#ffc98a"/>
+  <circle cx="1100" cy="320" r="3.5" fill="#e08a3c"/>
+  <circle cx="960" cy="320" r="2.8" fill="#e08a3c" opacity="0.8"/>
+  <circle cx="1030" cy="190" r="2.6" fill="#f2ede4" opacity="0.7"/>
+  <circle cx="1030" cy="450" r="3.2" fill="#e08a3c" opacity="0.55"/>
+  <circle cx="1201" cy="456" r="2.2" fill="#f2ede4" opacity="0.45"/>
+
+  <text x="88" y="112" fill="#e08a3c" font-family="'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="15" font-weight="600" letter-spacing="4">VOICE MODE FOR DSH</text>
+  <text x="1192" y="112" text-anchor="end" fill="#8f877c" font-family="'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="12" font-weight="600" letter-spacing="2">WORK IN PROGRESS</text>
+
+  <text x="84" y="242" fill="#f2ede4" font-family="'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="94" font-weight="700" letter-spacing="-2">Voice-Nebula</text>
+  <text x="88" y="308" fill="#d6cec2" font-family="'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="31" font-weight="400">让长回答可以听，也可以随时打断</text>
+  <text x="88" y="344" fill="#8f877c" font-family="'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="17" font-weight="400">Long answers you can listen to, and cut in on.</text>
+
+  <rect x="88" y="382" width="84" height="2" fill="url(#rule)"/>
+
+  <g font-family="'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="20" fill="#d8d1c6">
+    <rect x="88" y="421" width="8" height="8" fill="#e08a3c"/>
+    <text x="112" y="430">同步语音</text>
+    <rect x="300" y="421" width="8" height="8" fill="#e08a3c"/>
+    <text x="324" y="430">语音提问</text>
+    <rect x="88" y="467" width="8" height="8" fill="#e08a3c"/>
+    <text x="112" y="476">随时打断</text>
+    <rect x="300" y="467" width="8" height="8" fill="#e08a3c"/>
+    <text x="324" y="476">口语化复述</text>
+  </g>
+
+  <text x="88" y="572" fill="#7d756b" font-family="'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="15" font-weight="400">DeepSeek Harness 插件 · 源码暂未公开 · 预计 2027 年公开</text>
+</svg>
